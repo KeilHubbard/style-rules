@@ -11,6 +11,38 @@ With noted exceptions based on the project language. (ie. Python styles may be d
 
   `lowercase-with-hyphens`
   
+### Branch Names
+
+#### Regular (Persistant) Branches
+##### Code Branches
+  ```
+  'main'
+      Stable, Tested Release. Available to All End Users
+      
+  'beta'
+      Next Planned Release
+  'dev'
+      Shared Version Branch of Current Sprint, the code branch used by 'qa' and 'uat'
+  ```
+##### Review/ Test Branches
+Absolutely NO Code or Documentaion Changes may be Made in the following Branches
+  ```
+  'qa'
+      Review within development parameters and within code to ensure code Quality, 
+      Readability, Efficiency and Functionality meets requirements.
+  'uat'
+      Internal Review of End User Experience 
+      Per Requirements Documentation and User Stories
+  ```
+
+##### Working/ Ephemeral Branches
+
++ Specify Goal Of Branch:
+
++ Identify Related Ticket/ User Story / Source
+
+    
+
 ### Commits  
 
 #### Messages
@@ -30,12 +62,12 @@ With noted exceptions based on the project language. (ie. Python styles may be d
 + Capitalize subject line
 + Do not end subject line with period
 + Imperative Mood
-```
-Example commit messages:
+  ```
+  Example commit messages:
 
-git commit -m "fix: Fix bug causing electrical fires"
-git commit -m "imp: Decrease time to re-open websocket gateway"
-```
+  git commit -m "fix: Fix bug causing electrical fires"
+  git commit -m "imp: Decrease time to re-open websocket gateway"
+  ```
 
 #### Descriptions
 
@@ -47,15 +79,19 @@ git commit -m "imp: Decrease time to re-open websocket gateway"
 
 ### Brackets and Whitespace
 ```
-GNU Formatting for C & C-like languages
+Vertically Alligned Braces for C & C-like languages
 
   if (x == y)
-    {
-      y = x;
-    }
+  {
+      for(i=x, i>0, i++)
+      {
+      
+      }
+      y = x-1;
+  }
   else
-    {
+  {
       x = y;
-    }
+ }
 ```
 ### Comments
