@@ -14,25 +14,27 @@ With noted exceptions based on the project language. (ie. Python styles may be d
 ### Branch Names
 
 #### Regular (Persistant) Branches
-##### Code Branches
++ Code Branches
   ```
   'main'
       Stable, Tested Release. Available to All End Users
       
   'beta'
-      Next Planned Release
+      Next Planned Release, Available to Beta Test Users Only as Extended UAT
   'dev'
       Shared Version Branch of Current Sprint, the code branch used by 'qa' and 'uat'
   ```
-##### Review/ Test Branches
-Absolutely NO Code or Documentaion Changes may be Made in the following Branches
++ Review/ Test Branches  
+Absolutely NO Code or Documentation Changes may be Made in the following Branches
   ```
   'qa'
       Review within development parameters and within code to ensure code Quality, 
       Readability, Efficiency and Functionality meets requirements.
   'uat'
-      Internal Review of End User Experience 
+      "User Acceptance Testing"
+      Internal review of End User experience 
       Per Requirements Documentation and User Stories
+      May Be Released to a small group of known "True End Users" as "Alpha"
   ```
 
 ##### Working/ Ephemeral Branches
@@ -40,8 +42,6 @@ Absolutely NO Code or Documentaion Changes may be Made in the following Branches
 + Specify Goal Of Branch:
 
 + Identify Related Ticket/ User Story / Source
-
-    
 
 ### Commits  
 
