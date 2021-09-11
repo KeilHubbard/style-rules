@@ -18,7 +18,6 @@ With noted exceptions based on the project language. (ie. Python styles may be d
   ```
   'main'
       Stable, Tested Release. Available to All End Users
-      
   'beta'
       Next Planned Release, Available to Beta Test Users Only as Extended UAT
   'dev'
@@ -57,7 +56,7 @@ Absolutely NO Code or Documentation Changes may be Made in the following Branche
   refactor: Refactoring a specific section of the codebase
   test: Everything related to testing
   doc: Everything related to documentation
-  chore: Regular code maintenance.[ You can also use emojis to represent commit types]
+  chore: Regular code maintenance.
   ```
 + Capitalize subject line
 + Do not end subject line with period
