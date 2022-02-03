@@ -46,7 +46,6 @@ Absolutely NO Code or Documentation Changes may be Made in the following Branche
 
 #### Messages
 
-
 + Specify the type of commit:
   ```
   feat: A new feature you're adding to a particular application
@@ -73,6 +72,11 @@ Absolutely NO Code or Documentation Changes may be Made in the following Branche
 ### Package Names
 
 ### Class & Object Names
+
+`CapitalizedCamelCase`
+
++ Nouns in Class and Object Names ONLY
+    + ie. PulseWidthCalculator
 
 ### Method & Function Names
 
