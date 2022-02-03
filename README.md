@@ -80,6 +80,11 @@ Absolutely NO Code or Documentation Changes may be Made in the following Branche
 
 ### Method & Function Names
 
+`lowerCamelCase`
+
++ Start with descriptive Verb
+   + ie. readActivePulseWidth()
+
 ### Brackets and Whitespace
 ```
 Vertically Alligned Braces for C & C-like languages
