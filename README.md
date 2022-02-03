@@ -85,6 +85,11 @@ Absolutely NO Code or Documentation Changes may be Made in the following Branche
 + Start with descriptive Verb
    + ie. readActivePulseWidth()
 
+### Variable Names
+  #### CONSTANTS
+  
+  #### mutables
+
 ### Brackets and Whitespace
 ```
 Vertically Alligned Braces for C & C-like languages
