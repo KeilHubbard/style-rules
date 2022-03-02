@@ -88,9 +88,10 @@ Absolutely NO Code or Documentation Changes may be Made in the following Branche
    + ie. readActivePulseWidth()
 
 ### Variable Names
-  #### CONSTANT_VALUE_NOUN
+
+  `CONSTANT_VALUE_NOUN`
   
-  #### mutableVariableNoun
+  `mutableVariableNoun`
 
 ### Brackets and Whitespace
 ```
