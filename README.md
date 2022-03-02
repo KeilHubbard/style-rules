@@ -71,6 +71,8 @@ Absolutely NO Code or Documentation Changes may be Made in the following Branche
 
 ### Package Names
 
+`lowercase_with_underscores`
+
 ### Class & Object Names
 
 `CapitalizedCamelCase`
