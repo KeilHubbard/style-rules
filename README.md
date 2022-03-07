@@ -36,11 +36,11 @@ Absolutely NO Code or Documentation Changes may be Made in the following Branche
       May Be Released to a small group of known "True End Users" as "Alpha"
   ```
 
-##### Working/ Ephemeral Branches
++ Working/ Ephemeral Branches
 
-+ Specify Goal Of Branch:
+    + Specify Goal Of Branch:
 
-+ Identify Related Ticket/ User Story / Source
+    + Identify Related Ticket/ User Story/ Source
 
 ### Commits  
 
