@@ -108,6 +108,6 @@ Vertically Alligned Braces for C & C-like languages
   else
   {
       x = y;
- }
+  }
 ```
 ### Comments
