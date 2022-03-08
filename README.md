@@ -57,9 +57,9 @@ Absolutely NO Code or Documentation Changes may be Made in the following Branche
   doc: Everything related to documentation
   chore: Regular code maintenance.
   ```
-+ Capitalize subject line
-+ Do not end subject line with period
-+ Imperative Mood
+  + Capitalize subject line
+  + Do not end subject line with period
+  + Imperative Mood
   ```
   Example commit messages:
 
