@@ -23,7 +23,7 @@ With noted exceptions based on the project language. (ie. Python styles may be d
   'dev'
       Shared Version Branch of Current Sprint, the code branch used by 'qa' and 'uat'
   ```
-+ Review/ Test Branches  
++ Re+view/ Test Branches  
 Absolutely NO Code or Documentation Changes may be Made in the following Branches
   ```
   'qa'
@@ -111,3 +111,6 @@ Vertically Alligned Braces for C & C-like languages
   }
 ```
 ### Comments
+
+snake_case
+
