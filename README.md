@@ -94,10 +94,10 @@ Absolutely NO Code or Documentation Changes may be Made in the following Branche
   `mutableVariableNoun`
 
 ### Brackets and Whitespace
++ Vertically Alligned Braces for Java, C, and other C-like languages  
++ Multiples of Four(4) **SPACES** for indentation. Tabs not to be used unless absolutely neccesary (ie. makefiles)
++ Other Whitespace used as determined helpful for readability  
 ```
-Vertically Alligned Braces for Java, C, and other C-like languages
-WHitespace used as determined useful for readability
-
   if (currentPulseWidth == lastPulseWidth)
   {
       for(int milliSeconds = 0, milliSeconds < 5000, milliSeconds++)
