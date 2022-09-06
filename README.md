@@ -96,19 +96,29 @@ Absolutely NO Code or Documentation Changes may be Made in the following Branche
 ### Brackets and Whitespace
 ```
 Vertically Alligned Braces for Java, C, and other C-like languages
+WHitespace used as determined useful for readability
 
-  if (x == y)
+  if (currentPulseWidth == lastPulseWidth)
   {
-      for(i=x, i>0, i++)
+      for(int milliSeconds = 0, milliSeconds < 5000, milliSeconds++)
       {
           ...
       }
-      y = x-1;
   }
   else
   {
-      x = y;
+      lastPulseWidth = currentPulseWidth;
   }
 ```
 ### Comments
+
++ Docstrings  
+All Classes, Objects, Structs, and Functions/ Methods **MUST** include at-least a minimal docstring addressing the following:  
+  + Main Description  
+  + Parameters (Name, Data-Type, If Required or Optional, Description, Default Value)  
+  + Return (Data-Type, Description, Failure Value)  
+      
++ Inline & Multi-line Comments  
+  + Other comments should be included only when determined neccesary to document processes that are not clearly defined in code  
+  + When writing these comments first determine if the code cannot be better at "self-documenting" (ie. improved variable, function, or class names)  
 
