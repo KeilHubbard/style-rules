@@ -95,13 +95,13 @@ Absolutely NO Code or Documentation Changes may be Made in the following Branche
 
 ### Brackets and Whitespace
 ```
-Vertically Alligned Braces for C & C-like languages
+Vertically Alligned Braces for Java, C, and other C-like languages
 
   if (x == y)
   {
       for(i=x, i>0, i++)
       {
-      
+          ...
       }
       y = x-1;
   }
@@ -111,6 +111,4 @@ Vertically Alligned Braces for C & C-like languages
   }
 ```
 ### Comments
-
-snake_case
 
