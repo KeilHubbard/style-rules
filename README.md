@@ -100,7 +100,7 @@ Absolutely NO Code or Documentation Changes may be Made in the following Branche
 ```
   if (currentPulseWidth == lastPulseWidth)
   {
-      for(int milliSeconds = 0, milliSeconds < 5000, milliSeconds++)
+      for(int sample = 0, sample < 5000, sample++)
       {
           ...
       }
@@ -122,3 +122,5 @@ All Classes, Objects, Structs, and Functions/ Methods **MUST** include at-least 
   + Other comments should be included only when determined neccesary to document processes that are not clearly defined in code  
   + When writing these comments first determine if the code cannot be better at "self-documenting" (ie. improved variable, function, or class names)  
 
+### Versioning
+Use standard semantic versioning (https://semver.org/)
