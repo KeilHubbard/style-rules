@@ -93,10 +93,11 @@ Absolutely NO Code or Documentation Changes may be Made in the following Branche
   
   `mutableVariableNoun`
 
-### Brackets and Whitespace
+### Brackets, Whitespace, and Line Width
 + Vertically Alligned Braces for Java, C, and other C-like languages  
 + Multiples of Four(4) **SPACES** for indentation. Tabs not to be used unless absolutely neccesary (ie. makefiles)
 + Other Whitespace used as determined helpful for readability  
++ Line widths to be limited to One Hundred and Twenty(120) characters wherever possible
 ```
   if (currentPulseWidth == lastPulseWidth)
   {
