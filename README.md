@@ -1,6 +1,6 @@
 # style-rules
 Style Rules to be used on all projects...  
-With noted exceptions based on the project language. (ie. Python styles may be different than C)
+With noted exceptions based on the project language. (ie. Python styles will be different than C)
 
 
 ### Project Names
