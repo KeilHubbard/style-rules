@@ -63,7 +63,7 @@ Absolutely NO Code or Documentation Changes may be Made in the following Branche
   ```
   Example commit messages:
 
-  git commit -m "fix: Fix bug causing electrical fires"
+  git commit -m "fix: Fix incorrect connection timeout"
   git commit -m "imp: Decrease time to re-open websocket gateway"
   ```
 
