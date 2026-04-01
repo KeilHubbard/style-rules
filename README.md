@@ -1,20 +1,17 @@
 # style-rules
-Style Rules to be used on all projects...  
-With noted exceptions based on the project language. (ie. Python styles will be different than C)
-
+Style rules applicable to all projects. With noted exceptions based on the project language. (ie. Python styles will be different than C)  
 
 ### Project Names
-
   `Capitalized With Spaces`
 
 ### Repository Names
-
   `lowercase-with-hyphens`
   
 ### Branch Names
 
 #### Regular (Persistant) Branches
 + Code Branches
+Access Controlled, Pull requests require full review and approval
   ```
   'main'
       Stable, Tested Release. Available to All End Users
@@ -24,7 +21,7 @@ With noted exceptions based on the project language. (ie. Python styles will be 
       Shared Version Branch of Current Sprint, the code branch used by 'qa' and 'uat'
   ```
 + Review/ Test Branches  
-Absolutely NO Code or Documentation Changes may be Made in the following Branches
+Absolutely NO Code or Documentation changes may be made in the following Branches
   ```
   'qa'
       Review within development parameters and within code to ensure code Quality, 
@@ -46,7 +43,7 @@ Absolutely NO Code or Documentation Changes may be Made in the following Branche
 
 #### Messages
 
-+ Specify the type of commit:
++ Specify the type of commit (standard options below)
   ```
   feat: A new feature you're adding to a particular application
   fix: A bug fix
@@ -57,9 +54,9 @@ Absolutely NO Code or Documentation Changes may be Made in the following Branche
   doc: Everything related to documentation
   chore: Regular code maintenance.
   ```
-  + Capitalize subject line
-  + Do not end subject line with period
-  + Imperative Mood
++ Capitalize subject line
++ Do not end subject line with period
++ Imperative Voice
   ```
   Example commit messages:
 
@@ -68,6 +65,9 @@ Absolutely NO Code or Documentation Changes may be Made in the following Branche
   ```
 
 #### Descriptions
+  ```
+  
+  ```
 
 ### Package Names
 
@@ -125,3 +125,8 @@ All Classes, Objects, Structs, and Functions/ Methods **MUST** include at-least 
 
 ### Versioning
 Use standard semantic versioning (https://semver.org/)
+
+### Language Specific Exceptions / Notes
+
+#### Python
+PEP-8 (https://peps.python.org/pep-0008/) and other applicable PEP standards supersede personal styles.
